@@ -1,0 +1,1 @@
+Get-ADComputer -SearchBase 'OU=Servidores,DC=Desigua,DC=corp' -Filter "*" | Set-adobject -ProtectedFromAccidentalDeletion $false
