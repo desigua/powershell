@@ -1,4 +1,4 @@
-#Script desenvolvido por Marcelo Rodrigues (Desigua Bicho Solto) - CBO Localiza
+#Script desenvolvido por Marcelo Rodrigues (Desigua Bicho Solto) e Milton Campos (MVP) - 
 
 $connectionName = "AzureRunAsConnection"
 
@@ -25,7 +25,7 @@ catch {
     }
 }
 
-Set-AzContext -Subscription "dbc66f04-7d0d-4e30-9edb-da97e85b7f02" #PlataformaLocaliza-Aplic-DEVQA
+Set-AzContext -Subscription "00000000-0000-0000-0000-000000000000" #Nome Subscription
 
 $allrg = Get-AzResourceGroup
 foreach ($RGName in $AllRG.ResourceGroupName) { 
