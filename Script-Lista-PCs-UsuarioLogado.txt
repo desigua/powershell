@@ -22,3 +22,4 @@ $Resultado >> $ArquivoSaida
 #Onde:
 #C:\temp\resultado.txt é o diretório onde o arquivo será criado;
 #DC=meudominio,DC=com,DC=br é em qual estrutura de pastas a pesquisa será realizada.
+#Usuario é o usuario do active directory que deseja buscar.
