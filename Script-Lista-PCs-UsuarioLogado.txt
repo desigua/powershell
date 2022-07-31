@@ -1,6 +1,4 @@
 
-
-
 $ArquivoSaida="C:\temp\resultado.txt"
 #Cabeçalho do arquivo de saída
 "Computador;Usuario" > $ArquivoSaida
