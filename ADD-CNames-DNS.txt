@@ -1,0 +1,7 @@
+$dns="srv-addsaws01"
+$zone="desigua.corp"
+
+Import-Csv c:\temp\adddns.csv | foreach {
+dnscmd $dns /recordadd $zone $_.name A $_.ip
+dnscmd $dns /recordadd $zone $_.CName CNAME $_.Name
+}
