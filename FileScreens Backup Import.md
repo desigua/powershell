@@ -1,6 +1,4 @@
-# filescreens backup
-
-Baixar o script [`filescreens_backup.vbs`](https://github.com/desigua/powershell/blob/main/filescreens_backup.vbs)
+# Realiza backup e importa configurações do filescreens do serviço de servidor de arquivos do Windows Server
 
 ---
 
