@@ -1,5 +1,7 @@
 # Realiza backup e importa configurações do filescreens do serviço de servidor de arquivos do Windows Server
 
+Baixar o script [ilescreens_backup.vbs](https://github.com/desigua/powershell/blob/main/filescreens_backup.vbs)
+
 ---
 
 Realiza backup e importa as configurações do filescreens do serviço de servidor de arquivos no Windows Server.
@@ -74,3 +76,4 @@ Loop
 objFileIn.Close
 objFileOut.Close
 ```
+
