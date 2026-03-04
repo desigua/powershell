@@ -1,6 +1,6 @@
 # filescreens backup
 
-**[➡️ Baixar o script `filescreens_backup.vbs` ⬅️](https://github.com/desigua/powershell/blob/main/filescreens_backup.vbs)**
+Baixar o script [`filescreens_backup.vbs`](https://github.com/desigua/powershell/blob/main/filescreens_backup.vbs)
 
 ---
 
