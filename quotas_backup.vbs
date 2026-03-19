@@ -131,7 +131,9 @@ Sub ProcessQuota()
 	
 	'Converting units to a one grade lower to get rid of separator
 	delimpos = 0
-	If (UCase(Right(quota_limit, 2)) = "GB") Then
+	If (UCase(Right(quota_limit, 2)) = "TB") Then
+		quota_limit = CStr(CLng(CDbl(Left(quota_limit, Len(quota_limit) - 2)) * 1024)) & "GB"
+	ElseIf (UCase(Right(quota_limit, 2)) = "GB") Then
 		quota_limit = CStr(CLng(CDbl(Left(quota_limit, Len(quota_limit) - 2)) * 1024)) & "MB"
 	ElseIf (UCase(Right(quota_limit, 2)) = "MB") Then
 		quota_limit = CStr(CLng(CDbl(Left(quota_limit, Len(quota_limit) - 2)) * 1024)) & "KB"
